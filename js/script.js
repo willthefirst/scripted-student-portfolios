@@ -55,7 +55,13 @@ $(document).ready(function() {
 
 
   // Tyrese Francis's Javascript
+var panda = new Audio('audio/panda.mp3');
 
+  $('#panda').mouseenter(function() {
+    panda.play();
+  }).mouseleave(function(){
+    panda.pause();
+  });
 
 
 });
