@@ -64,7 +64,12 @@ $(document).ready(function() {
 
   // Shyanne Jordan's Javascript
 
-
+  var cheyenne= new Audio('audio/Song.mp3');
+  $('#shyanne-jordan').mouseenter(function() {
+    cheyenne.play();
+  }).mouseleave(function(){
+    cheyenne.pause();
+  });
   // Tyrese Francis's Javascript
 var panda = new Audio('audio/panda.mp3');
 
