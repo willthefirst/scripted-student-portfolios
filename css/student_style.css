@@ -269,6 +269,18 @@ font-size: 30px
   color:white;
 }
 /* Pierre-Ryan Baptiste's styles */
+  #Pierre-RyanBaptiste  {
+    background-image: url(http://i.imgur.com/ATWe5um.gif);
+    background-size: cover;
+    background-position: top center;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 3px 3px #ffffff;
+  }
+
+  #Pierre-RyanBaptiste:hover {
+    background-image: url(http://www.mypokecard.com/en/Gallery/my/galery/o277FxVffWhm.jpg);
 
 
 /* Prince Warner's styles */
